@@ -9,6 +9,10 @@ White: #FFF
 
 /*--------TAG SELECTORS---------*/
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
 }
@@ -26,6 +30,7 @@ a {
     width: 100%;
     height: 100px;
     justify-content: space-between;
+    padding-left: 20px;
     align-items: center;
     position: fixed;
     top: 0;
@@ -104,3 +109,49 @@ a {
 }
 
 /* ---------GREEN SECTION -------*/
+
+.green {
+    background-color: #00B172;
+    position: relative;
+    width: 80%;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.green__div {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    padding: 50px 0;
+    color: white;
+}
+
+.green__div h2 {
+    font-size: 28px;
+}
+
+.green__div p {
+    width: 50%;
+    font-weight: lighter;
+}
+
+.green__img {
+    margin: 20px 50px;
+}
+
+.app_img {
+    width: 220px;
+}
+
+.logo_img {
+    width: 100px;
+}
+
+.green__logo_img {
+    position: absolute;
+    top: auto;
+    right: auto;
+    left: auto;
+}
